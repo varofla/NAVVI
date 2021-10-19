@@ -146,3 +146,6 @@ dmypy.json
 !src/lib
 .pylintrc
 .vscode
+
+# custom
+lib/old
