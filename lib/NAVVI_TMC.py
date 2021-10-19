@@ -61,6 +61,9 @@ class TMC_2209_NAVVI(TMC_2209) :
     def set_direction_pin(self, direction):
         return super().setDirection_pin(direction)
 
+    def set_motor_enabled(self, en):
+        return super().setMotorEnabled(en)
+
 
 #-----------------------------------------------------------------------
 # 속도 설정 (mm/s)
